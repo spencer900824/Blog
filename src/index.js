@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import TypographyTh from './Testing/muiTest/MuiTest'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TypographyTh/>
   </React.StrictMode>,
   document.getElementById('root')
 );
