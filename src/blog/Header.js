@@ -21,7 +21,7 @@ function Header(props) {
           noWrap
           sx={{ flex: 1 }}
         >
-        <Link color="inherit" underline="none" href={"/"}>{title}</Link>
+        <Link color="inherit" underline="none" href={"/blog"}>{title}</Link>
         </Typography>
       </Toolbar>
       <Toolbar
