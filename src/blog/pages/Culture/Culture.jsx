@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Culture = ()=>{
-    return <div>This is Culture page</div>
+    return <div>Comming soon</div>
 };
 
 export default Culture

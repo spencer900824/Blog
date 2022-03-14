@@ -20,9 +20,9 @@ const sections = [
   { title: "Basic", url: "#/Basic" },
   { title: "Culture", url: "#/Culture" },
   { title: "Education", url: "#/Education" },
-  { title: "Skill", url: "#/Skills" },
-  { title: "Project", url: "#Projects" },
-  { title: "Ramble", url: "#Ramble" },
+  { title: "Skill", url: "#/Skill" },
+  { title: "Project", url: "#/Project" },
+  { title: "Ramble", url: "#/Ramble" },
   { title: "Habit", url: "#/Habit" },
 ];
 

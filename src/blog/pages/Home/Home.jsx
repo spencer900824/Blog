@@ -1,12 +1,12 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import Main from "../_components/Main";
-import Sidebar from "../_components/Sidebar";
-import MainFeaturedPost from "../_components/MainFeaturedPost";
+import Main from "./_components/Main";
+import Sidebar from "./_components/Sidebar";
+import MainFeaturedPost from "./_components/MainFeaturedPost";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 import post1 from "./posts/blog-post.1.md";
 
@@ -22,26 +22,13 @@ const mainFeaturedPost = {
 const posts = [post1];
 
 const sidebar = {
-    title: "About",
+    title: "Currently doing",
     description:
-      "Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.",
-    archives: [
-      { title: "March 2020", url: "#" },
-      { title: "February 2020", url: "#" },
-      { title: "January 2020", url: "#" },
-      { title: "November 1999", url: "#" },
-      { title: "October 1999", url: "#" },
-      { title: "September 1999", url: "#" },
-      { title: "August 1999", url: "#" },
-      { title: "July 1999", url: "#" },
-      { title: "June 1999", url: "#" },
-      { title: "May 1999", url: "#" },
-      { title: "April 1999", url: "#" },
-    ],
+    "I'm a college student attending National Chengchi University, major in Computer Science.",
     social: [
-      { name: "GitHub", icon: GitHubIcon },
-      { name: "Twitter", icon: TwitterIcon },
-      { name: "Facebook", icon: FacebookIcon },
+      { name: "GitHub", icon: GitHubIcon, link: "https://github.com/spencer900824"},
+      { name: "Facebook", icon: FacebookIcon, link: "https://www.facebook.com/profile.php?id=100003046419982"},
+      {name: "Instagram", icon: InstagramIcon, limk: "https://www.instagram.com/5_up_n/" },
     ],
   };
 
