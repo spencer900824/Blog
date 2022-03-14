@@ -1,13 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
-import TypographyTh from './Testing/muiTest/MuiTest'
-import Md from './Testing/md'
+import React from "react";
+import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+
+import TypographyTh from "./Testing/muiTest/MuiTest";
+import Md from "./Testing/md";
+import Ht from "./Testing/router/ht";
+import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
-    <TypographyTh/>
+    <TypographyTh />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
