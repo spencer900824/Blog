@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
-
+import Blog from "./blog/Blog";
 import TypographyTh from "./Testing/muiTest/MuiTest";
 import Md from "./Testing/md";
 import Ht from "./Testing/router/ht";
