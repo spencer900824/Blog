@@ -1,14 +1,15 @@
 import * as React from "react";
-import post1 from "./blog-post.1.md";
 import ReactMarkdown from "react-markdown";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Box from "@mui/material/Box";
 import { useState } from "react";
 
+
 function MarkdownListItem(props) {
   return <Box component="li" sx={{ mt: 1, typography: "body1" }} {...props} />;
 }
+
 const options = {
   overrides: {
     h1: {
@@ -52,10 +53,16 @@ const getMd = (filePath, set) => {
     .then((text) => set(text));
 };
 
-const Markdown = () => {
+export default function Markdown(props) {
   const [ps, setPs] = useState();
-  getMd(post1, setPs);
-  console.log(typeof(ps));
-  return <ReactMarkdown options={options} children={ps} />;
-};
-export default Markdown;
+  getMd(props.post, setPs);
+  return (
+    <React.Fragment>
+      <ReactMarkdown options={options} children={ps} />
+    </React.Fragment>
+  );
+}
+// export default function Markdown(props) {
+//   console.log(props)
+//   return <ReactMarkdown>*React-Markdown* is **Awesome**</ReactMarkdown>;
+// }

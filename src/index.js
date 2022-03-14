@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import TypographyTh from './Testing/muiTest/MuiTest'
 import Blog from './blog/Blog'
 ReactDOM.render(
   <React.StrictMode>
