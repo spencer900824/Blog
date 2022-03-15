@@ -7,7 +7,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 // imoprt pages
 import Home from "./pages/Home/Home";
-import Culture from "./pages/Culture/Culture";
 import Education from "./pages/Education/Education";
 import Habit from "./pages/Habit/Habit";
 import Project from "./pages/Project/Project";
@@ -17,7 +16,6 @@ import Skill from "./pages/Skill/Skill";
 
 const sections = [
   { title: "Home", url: "#/" },
-  { title: "Culture", url: "#/Culture" },
   { title: "Education", url: "#/Education" },
   { title: "Skill", url: "#/Skill" },
   { title: "Project", url: "#/Project" },
@@ -36,7 +34,6 @@ export default function Blog() {
         <HashRouter>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/Culture" element={<Culture/>} />
             <Route exact path="/Education" element={<Education/>} />
             <Route exact path="/Habit" element={<Habit/>} />
             <Route exact path="/Project" element={<Project/>} />
@@ -45,10 +42,7 @@ export default function Blog() {
           </Routes>
         </HashRouter>
       </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
+      <Footer/>
     </ThemeProvider>
   );
 }

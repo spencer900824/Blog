@@ -1,6 +1,6 @@
-Hi ! I am **吳尚恩**, you can call me **尚恩** or **Shawn**.  
+Hi ! I am *吳尚恩*, you can call me *尚恩* or *Shawn*.  
 I am a college student currently attending  
-***National Chengchi University, Taipei, Taiwan***. major in ***Computer Science***.  
+*National Chengchi University, Taipei, Taiwan*. major in *Computer Science*.  
 
 I have tons of passion for Coding, Building applications, Solving problem with computer,
 and also have strong curiosity about Blockchain, Finance and Stock market.  
