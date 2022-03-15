@@ -29,7 +29,7 @@ const sidebar = {
     social: [
       { name: "GitHub", icon: GitHubIcon, link: "https://github.com/spencer900824"},
       { name: "Facebook", icon: FacebookIcon, link: "https://www.facebook.com/profile.php?id=100003046419982"},
-      {name: "Instagram", icon: InstagramIcon, limk: "https://www.instagram.com/5_up_n/" },
+      { name: "Instagram", icon: InstagramIcon, link: "https://www.instagram.com/5_up_n/" },
     ],
   };
 
