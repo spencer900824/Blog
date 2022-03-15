@@ -7,7 +7,6 @@ import Header from "./Header";
 import Footer from "./Footer";
 // imoprt pages
 import Home from "./pages/Home/Home";
-import Basic from "./pages/Basic/Basic";
 import Culture from "./pages/Culture/Culture";
 import Education from "./pages/Education/Education";
 import Habit from "./pages/Habit/Habit";
@@ -17,7 +16,7 @@ import Skill from "./pages/Skill/Skill";
 // =============
 
 const sections = [
-  { title: "Basic", url: "#/Basic" },
+  { title: "Home", url: "#/" },
   { title: "Culture", url: "#/Culture" },
   { title: "Education", url: "#/Education" },
   { title: "Skill", url: "#/Skill" },
@@ -37,7 +36,6 @@ export default function Blog() {
         <HashRouter>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/Basic" element={<Basic />} />
             <Route exact path="/Culture" element={<Culture/>} />
             <Route exact path="/Education" element={<Education/>} />
             <Route exact path="/Habit" element={<Habit/>} />
