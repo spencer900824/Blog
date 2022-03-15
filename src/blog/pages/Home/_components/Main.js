@@ -19,7 +19,7 @@ function Main(props) {
         },
       }}
     >
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h5" gutterBottom bold='True'>
         {title}
       </Typography>
       <Divider />

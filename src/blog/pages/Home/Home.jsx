@@ -8,7 +8,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
-import post1 from "./posts/blog-post.1.md";
+// Markdown files
+import aboutMe from "./posts/aboutMe/aboutMe.md"
 
 
 const mainFeaturedPost = {
@@ -19,7 +20,7 @@ const mainFeaturedPost = {
   linkText: "",
 };
 
-const posts = [post1];
+const posts = [aboutMe];
 
 const sidebar = {
     title: "Currently doing",
@@ -38,7 +39,7 @@ const Home = (props) => {
       <main>
         <MainFeaturedPost post={mainFeaturedPost} />
         <Grid container spacing={5} sx={{ mt: 3 }}>
-          <Main title="Posts" posts={posts} />
+          <Main title="About me" posts={posts} />
           <Sidebar
             title={sidebar.title}
             description={sidebar.description}
