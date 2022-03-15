@@ -1,4 +1,4 @@
-Hi ! I am *吳尚恩*, you can call me *尚恩* or *Shawn*.  
+Hi ! I am 吳尚恩, you can call me 尚恩 or *Shawn*.  
 I am a college student currently attending  
 *National Chengchi University, Taipei, Taiwan*. major in *Computer Science*.  
 
