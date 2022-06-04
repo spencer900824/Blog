@@ -1,9 +1,10 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
+// IMPORT COMPONENTS
 import Main from "./_components/Main";
 import Sidebar from "./_components/Sidebar";
 import MainFeaturedPost from "./_components/MainFeaturedPost";
-
+// IMPORT ICONS
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -12,7 +13,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import aboutMe from "./posts/aboutMe/aboutMe.md"
 
 
-const mainFeaturedPost = {
+const mainFeaturedPostConf = {
   title: "Hi I'm Shawn",
   description: "You can get to know me through this blog.",
   image: "https://source.unsplash.com/random",
@@ -37,7 +38,7 @@ const Home = (props) => {
   return (
     <React.Fragment>
       <main>
-        <MainFeaturedPost post={mainFeaturedPost} />
+        <MainFeaturedPost post={mainFeaturedPostConf} />
         <Grid container spacing={5} sx={{ mt: 3 }}>
           <Main title="About me" posts={posts} />
           <Sidebar
