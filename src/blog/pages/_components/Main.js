@@ -23,9 +23,9 @@ function Main(props) {
         {title}
       </Typography>
       <Divider />
-      {posts.map((post) => (
+      {posts && (posts.map((post) => (
         <Markdown className="markdown" key={post.substring(0, 40)} post={post} />
-      ))}
+      )))}
     </Grid>
   );
 }
